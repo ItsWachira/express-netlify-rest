@@ -3,13 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-"scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "start": "NODE_ENV=development netlify-lambda serve src --openssl-legacy-provider",
-  "build": "NODE_ENV=production netlify-lambda build src",
-  "start-production": "NODE_OPTIONS='--openssl-legacy-provider' node src/server.js"
-}
-
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development netlify-lambda serve src --openssl-legacy-provider",
+    "build": "NODE_ENV=production netlify-lambda build src",
+    "start-production": "NODE_OPTIONS='--openssl-legacy-provider' node src/server.js"
   },
   "keywords": [],
   "author": "",
